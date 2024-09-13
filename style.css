@@ -1,4 +1,4 @@
-h1{
+#h1home{
     color: #fefae0;
     position: relative;
     font-weight: bold;
@@ -43,7 +43,12 @@ html {
     background-color: #283618;
     border: 3px solid #283618;
 }
-
+#h1topdiv{
+    position: absolute;
+    color: #fefae0;
+    top: 30px;
+    left: 900px;
+}
 #bot1{
     position: absolute;
     top: 10px;
@@ -89,8 +94,20 @@ a {
     left: 800px;
     top: 260px;
     border: 2px solid black;
+  
 }
-
+#h1button {
+    position: relative;
+    color: #fefae0;
+    top: 150px;
+    left: 30px;
+    border: 2px solid black;
+    border-style: inset;
+    background-color: #4c692a;
+    padding: 10px 20px; /* Add padding to the button */
+    box-sizing: border-box; /* Ensure the padding is included in the width calculation */
+    max-width: 150px; /* Set a maximum width to prevent the button from extending too far to the right */
+}
 #skill1Div:hover, #skill2Div:hover, #skill3Div:hover {
   
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
@@ -150,4 +167,43 @@ a {
 
 #skill3{
     color: #fefae0;
+}
+
+/* ABOUT WEBPAGE*/
+#h1buttonabout{
+    position: absolute;
+    color: #fefae0;
+    top: 150px;
+    left: 30px;
+    border: 2px solid black;
+    border-style: inset;
+    background-color: #4c692a;
+    padding: 10px 20px; 
+    box-sizing: border-box;
+    max-width: 150px; 
+}
+
+#profileabout{
+    position: relative;
+    left: 1200px;
+    top: 400px;
+    border: 1px solid black;
+}
+
+#paragraph1ABOUT{
+    position: absolute;
+    height: 300px;
+    top: 460px;
+    left: 200px;
+    color: #fefae0;
+    padding-right: 150px;
+   
+}
+
+#p1{
+    font-size: 50px;
+}
+
+#p2{
+    font-size: 20px;
 }
