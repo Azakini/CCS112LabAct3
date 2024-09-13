@@ -68,7 +68,7 @@ html {
 
 #botdiv p {
     color: #fefae0;
-    transition: all 0.3s ease; 
+    
 }
 
 #botdiv p:hover {
@@ -83,6 +83,7 @@ a {
 
 /* skills webpage */
 
+
 #profileSkill{
     position: relative;
     left: 800px;
@@ -90,3 +91,63 @@ a {
     border: 2px solid black;
 }
 
+#skill1Div:hover, #skill2Div:hover, #skill3Div:hover {
+  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+   
+  }
+
+#skill1Div{
+    padding: 50px;
+    left: 40px;
+    top: 500px;
+    color: #fefae0;
+    position: absolute;
+    text-align: center; /* Add this to center the text horizontally */
+}
+
+#skill1img{
+    display: block; /* Add this to make the image a block element */
+    margin: 0 auto; /* Add this to center the image horizontally */
+}
+
+#skill1{
+    color: #fefae0;
+    /* Remove the position: relative and left: 20px; */
+}
+
+#skill2Div{
+    padding: 50px;
+    left: 640px;
+    top: 500px;
+    color: #fefae0;
+    position: absolute;
+    text-align: center;
+}
+
+#skill2img{
+    display: block; 
+    margin: 0 auto; 
+}
+
+#skill2{
+    color: #fefae0;
+   
+}
+#skill3Div{
+    padding: 50px;
+    left: 1280px;
+    top: 500px;
+    color: #fefae0;
+    position: absolute;
+    text-align: center; 
+}
+
+#skill3img{
+    display: block; 
+    margin: 0 auto; 
+}
+
+#skill3{
+    color: #fefae0;
+}
