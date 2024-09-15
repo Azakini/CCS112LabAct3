@@ -107,6 +107,7 @@ a {
     padding: 10px 20px; 
     box-sizing: border-box; 
     max-width: 150px; 
+    border-radius: 10px;
 }
 #skill1Div:hover, #skill2Div:hover, #skill3Div:hover {
   
@@ -181,6 +182,7 @@ a {
     padding: 10px 20px; 
     box-sizing: border-box;
     max-width: 150px; 
+    border-radius: 10px;
 }
 
 #profileabout{
@@ -223,6 +225,7 @@ a {
     padding: 10px 20px; 
     box-sizing: border-box;
     max-width: 150px; 
+    border-radius: 10px;
 }
 
 #mainpanel {
@@ -237,6 +240,8 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -255,6 +260,7 @@ input[type="text"] {
     height: 40px;
     padding: 10px;
     margin-bottom: 20px;
+    border-radius: 10px;
     background-color: #b5e084;
 }
 
@@ -266,6 +272,7 @@ input[type="text"] {
     margin-bottom: 20px;
     top: 80px;
     left: 140px;
+    border-radius: 10px;
     background-color: #b5e084;
   }
   
@@ -277,6 +284,7 @@ textarea{
     top: 100px;
     left: 30px;
     resize: none;
+    border-radius: 10px;
     background-color: #b5e084;
 }
 
