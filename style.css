@@ -104,9 +104,9 @@ a {
     border: 2px solid black;
     border-style: inset;
     background-color: #4c692a;
-    padding: 10px 20px; /* Add padding to the button */
-    box-sizing: border-box; /* Ensure the padding is included in the width calculation */
-    max-width: 150px; /* Set a maximum width to prevent the button from extending too far to the right */
+    padding: 10px 20px; 
+    box-sizing: border-box; 
+    max-width: 150px; 
 }
 #skill1Div:hover, #skill2Div:hover, #skill3Div:hover {
   
@@ -120,17 +120,17 @@ a {
     top: 500px;
     color: #fefae0;
     position: absolute;
-    text-align: center; /* Add this to center the text horizontally */
+    text-align: center;
 }
 
 #skill1img{
-    display: block; /* Add this to make the image a block element */
-    margin: 0 auto; /* Add this to center the image horizontally */
+    display: block; 
+    margin: 0 auto; 
 }
 
 #skill1{
     color: #fefae0;
-    /* Remove the position: relative and left: 20px; */
+  
 }
 
 #skill2Div{
@@ -206,4 +206,132 @@ a {
 
 #p2{
     font-size: 20px;
+}
+
+
+/* CONTACT WEBPAGE */
+
+
+#h1buttoncontact{
+    position: absolute;
+    color: #fefae0;
+    top: 150px;
+    left: 30px;
+    border: 2px solid black;
+    border-style: inset;
+    background-color: #4c692a;
+    padding: 10px 20px; 
+    box-sizing: border-box;
+    max-width: 150px; 
+}
+
+#mainpanel {
+    padding: 100px;
+    position: relative;
+    background-color: #7FA969;
+    border-style: inset;
+    width: 800px;
+    height: 600px;
+    top: 200px;
+    left: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+label {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+
+input[type="text"] {
+    position: relative;
+    top: -10px; 
+    left: 50px; 
+    width: 500px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #b5e084;
+}
+
+  input[type="email"] {
+    position: relative;
+    width: 500px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    top: 80px;
+    left: 140px;
+    background-color: #b5e084;
+  }
+  
+
+textarea{
+    position: relative;
+    height: 200px;
+    width: 520px;
+    top: 100px;
+    left: 30px;
+    resize: none;
+    background-color: #b5e084;
+}
+
+input[type="submit"] {
+    position: relative;
+    font-weight: bold;
+    top: 100px;
+    left: 300px;
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border-style: inset;
+    border-color: 2px solid black;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+#messagelabel{
+    font-weight: bold;
+    color: #fefae0;
+    font-size: 20px;
+    position: relative;
+    left: -30px;
+    top: 10px;
+}
+
+#contactLabel {
+    color: #fefae0;
+    font-weight: bold;
+    position: relative;
+    top: -90px;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#namelabel{
+    color: #fefae0;
+    font-weight: bold;
+    position: relative;
+    top: -80px;
+    left: 360px;
+  
+}
+
+#emaillabel{
+    color: #fefae0;
+    font-weight: bold;
+    position: relative;
+    top: 80px;
+    left: -260px;
 }

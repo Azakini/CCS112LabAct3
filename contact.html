@@ -3,17 +3,55 @@
     
 <head>
     <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" 
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <script>
+        $(document).ready(function() {
+          $('form').submit(function(event) {
+            event.preventDefault();
+            var name = $('#name').val();
+            var email = $('#email').val();
+            
+            if (name == '' || email == '') {
+              alert('Please fill up the name and email field!');
+            } else {
+              var confirmSubmit = confirm('Are you sure you want to submit?');
+              if (confirmSubmit) {
+                $('#name').val('');
+                $('#email').val('');
+                $('#message').val('');
+              }
+            }
+          });
+        });
+      </script>
 </head>
 
 <body>
 
-    <h1 id="h1home">ALXEN JOHN E. FLORES</h1>
-    <img id = "profile" src="profile.png" alt="Myprofile " width="300" height="300">
-    <p id="paragraph1"> A COMPUTER SCIENCE STUDENT IN UNIVERSITY OF CABUYAO</p>
     <div id = "topdiv"> 
         <h1 id="h1topdiv">HOME</h1>
     </div>
+    
+    <div id="buttondiv"></div>
+    <h1 id="h1buttoncontact"> <a href="index.html">HOME</a></h1>
+    </div>
+
+    <div id="mainpanel">
+        <h1 id="contactLabel">CONTACT ME!</h1>
+        <form>
+            <label id="namelabel" for="name">NAME:</label>
+            <input  type="text" id="name" name="name">
+            <label id="emaillabel" for="email" style="font-size: 24px;">EMAIL:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label id="messagelabel" for="message" >MESSAGE:</label>
+            <textarea id="message" name="message"></textarea><br><br>
+            <input type="submit" value="SEND" >
+        </form>
+    </div>
+
     <div id = "botdiv">
         <p id="bot1"><a href="about.html">ABOUT</a></p>
         <p id="bot2"><a href="skills.html">SKILLS</a></p>
